@@ -1,12 +1,12 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: #e5e5e5;
 }
 
 /* main styles */
 .main {
   display: flex;
   flex-direction: row-reverse;
-  background-color: #e5e5e5;
   width: 1200px;
   margin: 0 auto;
 }
@@ -80,23 +80,75 @@ body {
 /* main-content styles */
 .main-content {
   background-color: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 105px 90px;
 }
 /* aboute stryles */
 .about {
+  margin-bottom: 40px;
+}
+.about-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.about-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+.about-decription {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  width: 400px;
 }
 
 /* project styles */
 .projects {
-  /* margin-top: 100px;
-  margin-bottom: 300px;
-  margin-left: 60px;
-  margin-right: 90px; */
-  /* margin: 100px 90px 300px 60px; */
-  /* margin: 50px; */
-  /* margin: 100px 50px; */
+  margin-bottom: 50px;
 }
-.project-title {
+.title {
   /* font-size: 45px; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+.project-item,
+.project-bracket {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+.project,
+.project-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+.projects-list,
+.work-list {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.project-link {
+  margin-left: 10px;
 }
 /* work styles */
 .work {
@@ -104,10 +156,66 @@ body {
   padding-bottom: 50px;
   padding-left: 20px;
   padding-right: 40px; */
-  padding: 100px 40px 50px 20px;
+  /* padding: 100px 40px 50px 20px; */
   /* padding: 50px; */
   /* padding: 50px 100px; */
+  margin-bottom: 45px;
+}
+
+.work-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.organization {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+}
+
+.period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 10px;
+}
+.line {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+.work-list-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
 }
 /* education stules */
 .education {
+  margin-bottom: 110px;
+}
+.education-place {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  margin-bottom: 10px;
+}
+.faculty {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
 }

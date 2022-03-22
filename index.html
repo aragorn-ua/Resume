@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/Styles/styles.css">
+    <link rel="stylesheet" href="Styles/styles.css">
     <title>Resume_Vova</title>
 </head>
 <body>
@@ -16,64 +16,73 @@
     <!--Main content-->
     <div class="main-content">
         <div class="about"><!--ABOUT ME-->
-        <h2>Future Front-End Developer</h2>
-        <h1>Гетман Володимир</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+        <h2 class="about-position">Future Front-End Developer</h2>
+        <h1 class="about-name">Гетман Володимир</h1>
+        <p class="about-decription" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
         aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>    
     </div>
     <!--Projects-->
     <div class="projects">
-    <h3 class="project-title">Projects</h3>
-    <ol>
-        <li> <a href="https://hellenglish.goit.global/">https://hellenglish.goit.global/</a>...........[ HTML5, CSS3 ]
+    <h3 class="title">Projects</h3>
+    <ol class="projects-list">
+        <li class="project-item">
+        <span class="project">
+        <a href="https://hellenglish.goit.global/" class="project-link">https://hellenglish.goit.global/</a>...........<span class="project-bracket">[</span>  HTML5, CSS3 <span class="project-bracket">]</span>
+        </span>    
         </li>
-        <li> <a href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a>............[ JavaScript ]
+        <li class="project-item"> 
+        <span class="project">
+        <a href="https://cryptohub.goit.global/" class="project-link">https://cryptohub.goit.global/</a>............<span class="project-bracket">[</span> JavaScript <span class="project-bracket">]</span>
+        </span>
         </li>
-        <li> <a href="https://kidslike.goit.global/">https://kidslike.goit.global/</a>...................[ React.js, Node.js ]
+        <li class="project-item">
+            <span class="project">
+                <a href="https://kidslike.goit.global/" class="project-link">https://kidslike.goit.global/</a>...................<span class="project-bracket">[</span> React.js, Node.js <span class="project-bracket">]</span>
+            </span>
         </li>
     </ol>
     </div>
     <!--Work Experience-->
     <div class="work">
-        <h3>Досвід роботи</h3>
+        <h3 class="title">Досвід роботи</h3>
         <!--Company 1-->
         <div> 
-            <h4>Cпеціаліст відділу контроля якості</h4>
-            <p>з 03.2021 до 02.2022 | ФОП Денисенко</p>
-            <ul>   
-                <li>Оцінка розмов та ділового листування операторів служби підтримки клієнтів.</li>
-                <li>Робота зі скаргами на співробітників компанії.</li>
-                <li>Risus commodo viverra maecenas.</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</li>
+            <h4 class="work-position">Cпеціаліст відділу контроля якості | <span class="organization"> Call-Center </span></h4>
+            <p class="period">з 03.2021 до 02.2022 <span class="line">|</span> Україна</p>
+            <ul class="work-list">   
+                <li class="work-list-item">Оцінка розмов та ділового листування операторів служби підтримки клієнтів.</li>
+                <li class="work-list-item">Робота зі скаргами на співробітників компанії.</li>
+                <li class="work-list-item">Risus commodo viverra maecenas.</li>
+                <li class="work-list-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</li>
             </ul>
         </div>
         <!--Company 2-->
         <div> 
-            <h4>TeamLead, Call-Center</h4>
-            <p>з 07.2018 до 03.2021 | ФОП Денисенко</p>
-            <ul>
-                <li>Допомога операторам (штат 30-40 чол) при вирішенні складних / конфліктних ситуацій.</li>
-                <li>Обробка письмових скарг від клієнтів.</li>
-                <li>Розробка критеріїв оцінки якості роботи операторів.</li>
+            <h4 class="work-position">TeamLead | <span class="organization"> Call-Center </span></h4>
+            <p class="period">з 07.2018 до 03.2021 <span class="line">|</span> Україна</p>
+            <ul class="work-list">
+                <li class="work-list-item">Допомога операторам (штат 30-40 чол) при вирішенні складних / конфліктних ситуацій.</li>
+                <li class="work-list-item">Обробка письмових скарг від клієнтів.</li>
+                <li class="work-list-item">Розробка критеріїв оцінки якості роботи операторів.</li>
             </ul>
         </div>
         <!--Company 3-->
         <div> 
-            <h4>Керівник відділу спеціалістів</h4>
-            <p>з 09.2016 до 06.2018 | Інтернет-провайдер «Lanet Network»</p>
-            <ul>
-                <li>Контроль роботы відділу спеціалістів.</li>
-                <li>Розробка схем по підвищенню якості обслуговування клієнтів</li>
-                <li>Аналіз роботы білінгової системи.</li>
+            <h4 class="work-position">Керівник відділу спеціалістів | <span class="organization"> «Lanet Network»</span></h4>
+            <p class="period">з 09.2016 до 06.2018 <span class="line">|</span> Україна</p>
+            <ul class="work-list">
+                <li class="work-list-item">Контроль роботы відділу спеціалістів.</li>
+                <li class="work-list-item">Розробка схем по підвищенню якості обслуговування клієнтів</li>
+                <li class="work-list-item">Аналіз роботы білінгової системи.</li>
             </ul>
         </div>
     </div>
     <!--Education-->
     <div class="education">
-        <h3>Освіта</h3>
-        <h4>Кібернетико-технічний коледж</h4>
-        <h5>Програмування</h5>
-        <p>Вересень 2004 - Червень 2009 | Україна</p>
+        <h3 class="title">Освіта</h3>
+        <h4 class="education-place">Кібернетико-технічний коледж</h4>
+        <h4 class="faculty">Програмування</h4>
+        <p class="period">Вересень 2004 - Червень 2009 <span class="line">|</span> Україна</p>
     </div>
     </div>
     <!--Sidebar-->
